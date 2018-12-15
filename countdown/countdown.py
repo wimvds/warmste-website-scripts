@@ -8,7 +8,7 @@ def displayTime(first, second):
     scrollphathd.write_string(
         '{:02d}:{:02d}'.format(first, second),
         x=0,  # Align to the left of the buffer
-        y=0,  # Align to the top of the buffer
+        y=1,  # Align to the top of the buffer
         font=font5x5,  # Use the font5x5 font we imported above
         brightness=BRIGHTNESS  # Use our global brightness value
     )
